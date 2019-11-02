@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/console-kit.git", from: "4.0.0-beta"),
 
         // Parses and serializes multipart-encoded data with Codable support.
-        .package(url: "https://github.com/vapor/multipart-kit.git", from: "4.0.0-beta"),
+        .package(url: "https://github.com/qi-shun-wang/multipart-kit.git", from: "4.0.0-beta"),
 
         // 🔑 Hashing (BCrypt, SHA2, HMAC), encryption (AES), public-key (RSA), and random data generation.
         .package(url: "https://github.com/vapor/open-crypto.git", from: "4.0.0-alpha.2"),
